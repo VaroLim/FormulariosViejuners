@@ -9,7 +9,7 @@
 <body>
     <form>
       <!-- Input text -->
-      <h1>Formulario club Viejuners</h1>
+      <h2>Formulario club Viejuners</h2>
       <label for="name">
         Nombre 
       </label><br>
@@ -18,26 +18,25 @@
       <label for="lastname"><br>
         	Apellidos
       </label>
-        <input type="text" id="lastname" /><br>
+        <input type="text" id="lastname" placeholder="Escribe tus apellidos"/><br>
                 
       <label for="age"><br>
         Edad
       </label>
-        <input type="number" id="age"><br>
+        <input type="number" id="age" placeholder="Tu edad"><br>
 
     <label for="sex"><br>
         Sexo
     </label>
-        <input type="radio" id="sex" name="Sexos">Hombre 
-        <input type="radio" id="sex" name="Sexos">Mujer<br>
+        <input type="radio" id="sex" name="Sexos" checked>Hombre 
+        <input type="radio" id="sex" name="Sexos">Mujer<br><br>
 
     <label>
-        Me siento Viejuner
+        Me siento Viejuner <input type="checkbox"> Sí<br>
     </label>
-        <input type="checkbox"> Sí<br>
-        <textarea name="comment">Introduce aquí tu texto</textarea>
-
-        </textarea></p> 
+        <p>
+        <textarea name="comment" placeholder="Edita aquí tu texto"></textarea>
+        </p> 
 
         <h3>Tus circunstancias</h3>
     <label>
@@ -48,9 +47,9 @@
     <label>
         Número de teléfono
     </label>
-        <input type="number">
+        <input type="number" maxlength="9">
 
-<!-- <-- autofocus, tabindex, reset, submit, fieldset, legend --> -->
+<!-- <-- autofocus, tabindex, reset, submit, fieldset, legend -->
 
     </form>
 </body>
